@@ -63,3 +63,38 @@ footer {
   text-align: left;
   margin-top: 3rem;
 }
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  /* Center the profile picture and adjust its size */
+  .profile-pic {
+    width: 180px; /* Adjust the width of the profile picture */
+    height: 180px; /* Adjust the height accordingly */
+    margin: 0 auto 1rem; /* Center the image and give it margin at the bottom */
+    float: none; /* Remove the float */
+    display: block; /* Make the image block-level so it centers */
+  }
+
+  /* Ensure the text is properly sized */
+  h1 {
+    font-size: 1.8rem; /* Slightly smaller font size for smaller screens */
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.95rem; /* Adjust the font size for readability */
+  }
+
+  footer {
+    text-align: center; /* Center-align the footer on mobile */
+  }
+
+  /* Ensure the container uses full width on smaller screens */
+  .container {
+    width: 90%;
+    padding: 1rem;
+  }
+}
